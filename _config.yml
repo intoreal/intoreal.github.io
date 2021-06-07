@@ -6,7 +6,7 @@ language: 'euc-kr'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: https://intoreal.github.io/
+baseurl: /
 
 # Website info
 title: 지환의 기술블로그
@@ -73,7 +73,7 @@ branch: master
 relative_source: https://intoreal.github.io/
 destination: ../intoreal-pages/
 production_url:  https://intoreal.github.io/
-source_url:  https://github.com/intoreal/intoreal.github.io
+source_url:  https://intoreal.github.io/
 
 exclude:
   - assets/css
