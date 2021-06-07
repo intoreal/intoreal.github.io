@@ -2,15 +2,15 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'en-uk'
+language: 'euc-kr'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: 지환의 기술블로그
+description: Jihwan's Tech Blog
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
@@ -22,15 +22,15 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: # replace by your username
+facebook: # replace by your username
 
 # Disqus
 disqus: False
 disqus_shortname: jekyllt # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics:  # UA-69281367-1 replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -67,13 +67,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyllt
-repo: jasper2
+username: intoreal
+repo: https://github.com/intoreal/intoreal.github.io.git
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  https://jekyllt.github.io/jasper2/
-source_url:  https://github.com/jekyllt/jasper2/
+production_url:  https://intoreal.github.io/
+source_url:  https://github.com/intoreal/intoreal.github.io
 
 exclude:
   - assets/css
