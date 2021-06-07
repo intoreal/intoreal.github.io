@@ -27,7 +27,7 @@ facebook: # replace by your username
 
 # Disqus
 disqus: False
-disqus_shortname: jekyllt # replace with your disqus username
+disqus_shortname: intoreal # replace with your disqus username
 
 # Google Analytics
 google_analytics:  # UA-69281367-1 replace with your GA tracking identifier
@@ -70,8 +70,8 @@ lsi: False
 username: intoreal
 repo: https://github.com/intoreal/intoreal.github.io.git
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
+relative_source: 
+destination: ./output/
 production_url:  https://intoreal.github.io/
 source_url:  https://github.com/intoreal/intoreal.github.io
 
