@@ -1,3 +1,0 @@
-https://github.com/christian-fei/Simple-Jekyll-Search
-https://m-veloper.github.io/tip/2020/05/15/tip-jekyll-01/
-https://moon9342.github.io/jekyll-start
