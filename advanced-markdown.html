@@ -34,13 +34,13 @@
     <![endif]-->
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="지환의 기술블로그" />
-    <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon.jpg" type="image/png" />
+    <meta name="description" content="Jihwan's Tech Blog" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
     <link rel="canonical" href="http://localhost:4000/advanced-markdown" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="IT Technical Training" />
+    <meta property="og:site_name" content="지환의 기술블로그" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Advanced Markdown tips" />
     <meta property="og:description" content="There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about" />
@@ -57,7 +57,7 @@
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/images/advanced.jpg" />
     <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="IT Technical Training" />
+    <meta name="twitter:data1" content="지환의 기술블로그" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="Getting Started" />
     <meta name="twitter:site" content="@" />
@@ -71,8 +71,8 @@
     "@type": "Website",
     "publisher": {
         "@type": "Organization",
-        "name": "IT Technical Training",
-        "logo": "http://localhost:4000/"
+        "name": "지환의 기술블로그",
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
     },
     "url": "http://localhost:4000/advanced-markdown",
     "image": {
@@ -117,7 +117,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="http://localhost:4000/">IT Technical Training</a>
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="지환의 기술블로그" /></a>
             
         
         
@@ -224,7 +224,7 @@ into the {body} of the default.hbs template -->
             <!-- Email subscribe form at the bottom of the page -->
             
                 <section class="subscribe-form">
-                    <h3 class="subscribe-form-title">Subscribe to IT Technical Training</h3>
+                    <h3 class="subscribe-form-title">Subscribe to 지환의 기술블로그</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
                     <form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
@@ -242,8 +242,6 @@ into the {body} of the default.hbs template -->
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
-                
-                    
                 
                     
                         <section class="author-card">
@@ -281,23 +279,6 @@ into the {body} of the default.hbs template -->
             The only thing you need to change is "test-apkdzgmqhj" - which
             should be replaced with your own Disqus site-id. -->
             
-                <section class="post-full-comments">
-                    <div id="disqus_thread"></div>
-                    <script>
-                        var disqus_config = function () {
-                            var this_page_url = 'http://localhost:4000/advanced-markdown';
-                            var this_page_identifier = '/advanced-markdown';
-                            var this_page_title = 'Advanced Markdown tips';
-                        };
-                        (function() {
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://xxxxxxxx.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                </section>
-            
 
         </article>
 
@@ -315,11 +296,11 @@ into the {body} of the default.hbs template -->
                 
                     <article class="read-next-card"
                         
-                            style="background-image: url(/assets/built/images/blog-cover1.png)"
+                            style="background-image: url(/assets/images/blog-cover.jpg)"
                         
                     >
                         <header class="read-next-card-header">
-                            <small class="read-next-card-header-sitetitle">&mdash; IT Technical Training &mdash;</small>
+                            <small class="read-next-card-header-sitetitle">&mdash; 지환의 기술블로그 &mdash;</small>
                             
                                 <h3 class="read-next-card-header-title"><a href="/tag/getting-started/">Getting started</a></h3>
                             
@@ -443,8 +424,6 @@ into the {body} of the default.hbs template -->
             <footer class="post-card-meta">
                 
                     
-                
-                    
                         
                         <img class="author-profile-image" src="/assets/images/ghost.png" alt="Ghost" />
                         
@@ -509,8 +488,6 @@ into the {body} of the default.hbs template -->
             <footer class="post-card-meta">
                 
                     
-                
-                    
                         
                         <img class="author-profile-image" src="/assets/images/ghost.png" alt="Ghost" />
                         
@@ -552,7 +529,9 @@ into the {body} of the default.hbs template -->
     <div class="floating-header-logo">
         <a href="http://localhost:4000/">
             
-            <span>IT Technical Training</span>
+                <img src="/assets/images/favicon.png" alt="지환의 기술블로그 icon" />
+            
+            <span>지환의 기술블로그</span>
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
@@ -592,7 +571,7 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/">IT Technical Training</a> &copy; 2021</section>
+                <section class="copyright"><a href="http://localhost:4000/">지환의 기술블로그</a> &copy; 2021</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
@@ -613,7 +592,9 @@ into the {body} of the default.hbs template -->
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                <h1 class="subscribe-overlay-title">Subscribe to IT Technical Training</h1>
+                    <img class="subscribe-overlay-logo" src="/assets/images/blog-icon.png" alt="지환의 기술블로그" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to 지환의 기술블로그</h1>
                 <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
                 <form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
@@ -666,7 +647,7 @@ into the {body} of the default.hbs template -->
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-xxxxxxxx-x', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
  </script>
