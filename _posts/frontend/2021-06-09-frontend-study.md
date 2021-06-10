@@ -5,7 +5,7 @@ cover:  assets/images/welcome.jpg
 navigation: True
 title: 프론트엔드 공부
 date: 2017-07-27 10:00:00
-tags: [Getting started, frontend, hello, world, this, is, tags ]
+tags: [Getting started, frontend]
 class: post-template
 subclass: 'post'
 author: intoreal
