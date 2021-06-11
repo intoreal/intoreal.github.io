@@ -11,7 +11,7 @@ subclass: 'post page'
 <div class="well article">
 	{%for post in site.posts %}
     {% unless post.next %}
-        <h2>{{ post.date | date: '%Y' }}</h2>
+        <h3>{{ post.date | date: '%Y' }}</h3>
         <ul>
     {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
