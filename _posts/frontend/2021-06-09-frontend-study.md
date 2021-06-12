@@ -11,6 +11,8 @@ subclass: 'post'
 author: intoreal
 ---
 
+{% include react-table-of-contents.html %}
+
 Hey! Welcome to Ghost, it's great to have you :)
 
 We know that first impressions are important, so we've populated your new site with some initial **Getting Started** posts that will help you get familiar with everything in no time. This is the first one!

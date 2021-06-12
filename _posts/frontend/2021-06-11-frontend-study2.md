@@ -3,24 +3,15 @@ layout: post
 current: post
 cover:  assets/images/welcome.jpg
 navigation: True
-title: Python 강좌(1) - Python 기본 
-date: 2018-09-27 16:40:00
-tags: [python]
+title: 프론트엔드 공부 2
+date: 2021-06-11 10:00:00
+tags: [frontend]
 class: post-template
-subclass: 'post tag-python'
+subclass: 'post'
 author: intoreal
 ---
 
-이것은 파이썬 블로그글 입니다. 
-
-```python
-import tensorflow as tf
-
-print(tf.__version__)
-print(1)
-```
-
-
+Hey! Welcome to Ghost, it's great to have you :)
 
 We know that first impressions are important, so we've populated your new site with some initial **Getting Started** posts that will help you get familiar with everything in no time. This is the first one!
 
