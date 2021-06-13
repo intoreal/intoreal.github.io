@@ -24,7 +24,7 @@ subclass: 'post page'
     {% endunless %}
     <li><span class="post-date">
         {% assign date_format = site.date_format.archive %}
-        {{ post.date | date: '%Y-%m-%d' }} </span><a href=".{{ post.url }}" target="_blank">{{ post.title }}</a></li>
+        {{ post.date | date: '%Y-%m-%d' }} </span><a href=".{{ post.url }}" >{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
 </div>

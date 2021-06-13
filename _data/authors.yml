@@ -5,10 +5,10 @@ intoreal:
   url_full: 
   url: 
   bio: 
-  picture: assets/images/hannah.jpg
+  picture: assets/images/jihwan.jpg
   facebook: False
   twitter: 
-  cover: assets/images/hannah-cover.jpg  
+  cover: False
 ghost:
   username: ghost
   name: Ghost

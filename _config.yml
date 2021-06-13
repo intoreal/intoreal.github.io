@@ -54,7 +54,7 @@ description: Technote and Today I Learned
 cover: assets/images/blog-cover.jpg
 # blog home에 표시될 blog cover image.
 
-logo:
+logo: 
 logo_dark:
 
 favicon: assets/images/favicon.jpg
@@ -76,6 +76,8 @@ subscribers: False
 # lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
 # 검색기능으로 대체하기 위해서
 # `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
+
+search: True
 
 twitter:
 facebook:

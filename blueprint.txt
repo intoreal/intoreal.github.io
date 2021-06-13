@@ -1,0 +1,16 @@
+지환의 기술블로그
+Technotes and Today I Learned
+
+
+<네비게이션>
+Home, About, All POSTS, TAG별 POST                   <search>
+
+<태그>
+AI(AI, tensorflow, pytorch )
+data(numpy, pandas, pyplot)
+backend(linux, docker, node)
+frontend(react, html, js, css)
+etc(git, IDE, vscode)
+
+<작성자>
+Jang jihwan

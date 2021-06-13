@@ -136,7 +136,7 @@ body {
     z-index: 10;
     display: block;
     height: 80px;
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+    background: black;
 }
 
 .site-header.no-cover:before,
@@ -1084,6 +1084,23 @@ Usage (In Ghost editor):
 .subscribe-form .form-group {
     flex-grow: 1;
 }
+
+.search-text {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border: color(var(--lightgrey) l(+7%)) 1px solid;
+    color: var(--midgrey);
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: normal;
+    user-select: text;
+    border-radius: 3px;
+    transition: border-color 0.15s linear;
+
+    -webkit-appearance: none;
+}
+
 
 .subscribe-email {
     display: block;

@@ -22,7 +22,7 @@ subclass: 'post page'
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
 	<article>
-	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word | upcase }}</h2>
+	<h2 id="{{ this_word }}" class="tag-heading"><a href="{{ site.baseurl }}tag/{{ this_word | slugify: "latin"  }}" style="box-shadow: none; margin-bottom: 5px">{{ this_word | upcase }}</a></h2>
 		<ul>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
       <!-- <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a></li> -->

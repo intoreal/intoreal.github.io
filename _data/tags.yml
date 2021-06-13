@@ -1,3 +1,23 @@
+ai:
+  name: AI
+  description: False
+  cover: assets/images/tag-images/tag-ai.jpg
+data:
+  name: data science
+  description: False
+  cover: assets/images/tag-images/tag-data.jpg
+backend:
+  name: backend
+  description: False
+  cover: assets/images/tag-images/tag-backend.jpg
+frontend:
+  name: frontend
+  description: False
+  cover: assets/images/tag-images/tag-frontend.jpg
+etc:
+  name: etc
+  description: False
+  cover: assets/images/tag-images/tag-etc.jpg
 speeches:
   name: speeches
   description: Some of the greatest words ever spoken.
@@ -14,11 +34,4 @@ getting-started:
   name: getting-started
   description: False
   cover: False
-frontend:
-  name: frontend
-  description: False
-  cover: False
-python:
-  name: python
-  description: False
-  cover: False
+
