@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/welcome.jpg
 navigation: True
 title: 진짜 영어를 찾아서 - 링글 수업 후기
-date: 2021-06-19 22:30:00
+date: 2021-06-18 22:30:00
 tags: [etc]
 class: post-template
 subclass: 'post tag-etc'
