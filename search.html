@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Search Result</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" /> -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- web fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/custom.css" />
+
+    <!-- highlight.js(disable) -->
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style> -->
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Technote and Today I Learned" />
+    <link rel="shortcut icon" href="https://intoreal.github.io/assets/images/favicon.jpg" type="image/png" />
+    <link rel="canonical" href="https://intoreal.github.io/search" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="지환의 기술블로그" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Search Result" />
+    <meta property="og:description" content="Technote and Today I Learned" />
+    <meta property="og:url" content="https://intoreal.github.io/search" />
+    <meta property="og:image" content="https://intoreal.github.io/assets/images/blog-cover.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:description" content="Technote and Today I Learned" />
+    <meta name="twitter:url" content="https://intoreal.github.io/" />
+    <meta name="twitter:image" content="https://intoreal.github.io/assets/images/blog-cover.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="지환의 기술블로그" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "지환의 기술블로그",
+        "logo": "https://intoreal.github.io/"
+    },
+    "url": "https://intoreal.github.io/search",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://intoreal.github.io/assets/images/blog-cover.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://intoreal.github.io/search"
+    },
+    "description": "Technote and Today I Learned"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
+
+
+</head>
+<body class="page-template">
+        <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://intoreal.github.io/">지환의 기술블로그</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/tag_posts.html">Tag별 Posts</a>
+    </li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="search-text" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+            <!-- <a class="subscribe-button" href="#subscribe">Search</a> -->
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
+
+<ul class="mylist" id="search-results"></ul>
+
+<script>
+    window.store = {
+    
+    "ringle-plus": {
+        "title": "진짜 영어를 찾아서 - 링글 수업 후기",
+            "author": "intoreal",
+            "category": "",
+            "content": "영어를 20년 동안 공부했는데 왜 영어가 안될까?한국학생들은 정규수업을 받을 때부터 직접적 간접적으로 영어 수업을 듣게된다. 나 때까지만 하더라도 초등학교때 영어 수업은 없었지만 이제는 있다고 하니 대학교 졸업 때까지를 생각하면 최소 16년은 영어를 공부하는 것이다. 문제는 이렇게 영어를 오래 공부해도 자신있게 영어를 하지 못한다는 데 있다.개인으로서 경쟁력을 얻기 위해 영어를 다시 공부하기 시작링글에 대한 이야기는 아내에게 들었다. 링글 수업을 계속 수강하고 있는 학생으로서 다른 전화영어 하는 것 보다는 링글이 훨씬 낫다는 이야기를 많이 해주었다.이렇게 이야기만 듣던 차에, 이제 나도 경쟁력있는 사람이 되려면 영어를 제대로 해야겠다는 생각이 들었다. 단순히 성적을 내기위해, 시험에 합격하기 위해서가 아니라 영어 논문을 읽어 최신 기술을 익히기 위해, 해외 협력사와 협력을 해 나갈 수 있게 하기 위해서 실질적인 영어 실력이 필요하다고 느꼈다. 다른 몇가지 대안이 있었지만, 아내의 추천과 튜터들을 Quality를 보고 링글을 선택하여 유료 수업을 들었다.장점: 다양한 토픽과 실력있는 튜터들, 그리고 훌륭한 피드백링글수업은 쉬이 지루해질 수 있는 영어수업을 재미있게 하기 위해 다양한 토픽을 준비하고 있다. 나는 Startup과 IT 기업에 관심이 많기 때문에 Silicon Vally 등과 관련된 토픽 등을 주로 선택하고 있다. 관심있는 주제이다보니 나도 하고싶은 말도 많아지고 진짜 나의 의사를 표현하는데 많은 도움을 주고있는 것 같다.실력있는 튜터들과 좋은 피드백도 매우 훌륭하다. 대학원 이상 학습하고 있는 튜터들은  IT 현황에 대해 같이 토론이 가능했으며, 수업 후에는 구글 Docs로 나의 약점에 대해 다양한 개선 방안을 짚어주었다. 다른 전화영어에서는 얻지 못했던 장점이다.단점: 아직 많지 않은 튜터 수, 수강권의 시간제한링글에도 단점은 있다. 튜터 수가 아직 많지 않은 것으로 보인다. 몇번 검색을 하게되면 나와 관심사(공학)가 같은 튜터는 모두 볼 수 있으며, 조금 더 다양한 튜터가 있었으면 하는 바램이 생겼다. 또한 수강권의 시간제한도 아쉽다. 수강권을 70여개 구매하였는데 수강 제한기간이 1년이다. 대량 구매할 경우 조금더 수강 기간을 늘려주었으면 한다.링글 영어 추천여부: 추천링글은 실제 비즈니스나 학계에서 사용하는 영어를 경험할 수 있는 몇 안되는 서비스이다. 앞으로도 계속 서비스를 사용할 의향이 있고, 더 발전되었으면 한다. 국제적인 Startup으로 크게 성장하기를 기원한다.",
+        "url": "/ringle-plus"
+    }
+    ,
+    
+    "react": {
+        "title": "React 기본문법",
+            "author": "intoreal",
+            "category": "",
+            "content": "기본 구성html  div에 id를 지정한다.  이후 js에서 document.getEleventById()로 대상을 찾아 컴포넌트로 대체한다.jsx      html과 연결된 jsx    import React from 'react';import ReactDOM from 'react-dom';  # App이라는 컴포넌트 importimport App from './App';   ReactDOM.render(  &lt;React.StrictMode&gt;    &lt;App /&gt;  &lt;/React.StrictMode&gt;,  document.getElementById('root'));            function Component를 정의하는 jsx    import React from 'react';  # 반드시 대문자로 시작!# 반드시 한개 태그로 wrapfunction App() {    return (&lt;div className=\"App\"&gt; Hello world! &lt;/div&gt;);}  export default App;            class Component를 정의하는 jsx    class App extends React.Component {  # 현 상태 저장을 위한 state Object  state = {count: 0};  add = () =&gt;{};  minus = () =&gt;{};  # 화면 출력을 위한 render 함수  # 함수와 연결시킬 때는 onClick으로 연결  render() {    return (      &lt;div&gt;        &lt;h1&gt;The number is : {this.state.count}&lt;/h1&gt;        &lt;button onClick={this.add}&gt;Add&lt;/button&gt;        &lt;button onClick={this.minus}&gt;Minus&lt;/button&gt;        &lt;Hw /&gt;      &lt;/div&gt;    );  }}      CSS      css 연결    # Component를 정의한 jsx 파일에서 import './&lt;Component 이름&gt;.css'  # 혹은 jsx html에서 &lt;div style={ css문법 } &gt;  &lt;/div&gt;      기타 사용법jsx 문법      컴포넌트의 표현    &lt; App /&gt;            jsx html에서 요소의 class를 정의할 때    # class가 아닌 className을 사용한다. &lt;div className=\"movies\"/&gt;            html안에 javascript를 넣고 싶을 때    &lt;div&gt;  { javascript }&lt;/div&gt;  &lt;!-- 예시 --&gt;function App() {  return (    &lt;div className='App'&gt;      {foodILike.map((dish) =&gt; (&lt;Food key={dish.id} /&gt; ))}    &lt;/div&gt;  );}            Object Property를 보내는 방식    # 반드시 unique한 key 값을 포함하고# key 값을 같이 보낸다. # 다만 컴포넌트를 반환하는 함수에서 key를 받아줄 필요는 없다.             Property의 적절성 확인    # 컴포넌트를 정의하는 jsx에서 import PropTypes from 'prop-types';  # properties의 타입과 필수 여부를 정의하고Food.propTypes = {  name: PropTypes.string.isRequired,  picture: PropTypes.string.isRequired,  rating: PropTypes.number.isRequired,};  # 컴포넌트 반환 함수를 정의한다.# 적절한 Property가 전달되지 않으면 웹브라우저에서 에러 메시지 발생            setState에서 값을 변경하는 올바른 방법    # 잘못된 방법(this를 사용함)this.setState({count: this.state.count + 1})# 올바른 방법this.setState((current) =&gt; ({count: current.count + 1}))              Component 생명주기에 따라 호출되는 Class Component fuction    class App extends React.Component{  # 1. 자바스크립트 class가 생성될 때  constructor(props) { super(props);  }  # 2. 컴포넌트가 렌더링 될 때  render() {};  # 3. 컴포넌트 렌더링이 완료되었을때  componentDidMount() {};  # 4. 컴포넌트가 업데이트되었을 때   componentDidUpdate() {};  # 5. 컴포넌트가 없어질 때  componentWillUnmount() {};}            컴포넌트 렌더링 후 데이터 가져오기    import axios from 'axios';class App extends React.Component {  getMoive = async () =&gt; {    cost movies = await axios.get(url);  }      componentDidMount() {      this.getMoive();  }      }      라우터      라우터 설정    import { BrowserRouter, Route } from 'react-router-dom';  function App() {  return (    &lt;BrowserRouter&gt;      &lt;Navigation /&gt; * 네비게이션의 위치는 반드시 &lt;BrowserRouter&gt;라우터 안에 포함되어야 한다.  */      &lt;Route path='/' exact component={Home} /&gt;      &lt;Route path='/about' component={Potato} /&gt; /* 서브라우팅이 있는 경우 exact 하면 안됨 */      &lt;Route path='/movie/:id' exact component={Detail} /&gt;    &lt;/BrowserRouter&gt;  );}            Link(페이지 이동) 설정    /* 네비게이션의 위치는 반드시 &lt;BrowserRouter&gt; 안에 포함되어야 한다. */import React from 'react';import { Link } from 'react-router-dom';function Navigation() {  return (    &lt;div&gt;      &lt;Link to='/'&gt;Home&lt;/Link&gt;   /* href가 아닌 to임에 주의하자.*/      &lt;Link to=\" pathname: '/about', state: { fromNavigation: true } \"&gt;  /* 추가 옵션으로 상태를 전달할 수 있다. */        About      &lt;/Link&gt;      &lt;Link to=\" pathname: '/movie/' + id, state: { year, title, summary, poster, genres }\" &gt;        Movie      &lt;/Link&gt;    &lt;/div&gt;  );}            다른 페이지로 보내버리기(리액트 해제)    /* 라우팅 한 페이지에서만 history가 전달됨 */ const { history } = this.props;history.push('/');            서브라우팅    /* 라우팅으로 이동한 Component에서 다시 라우팅하면 된다. *//* 다만 최초 라우팅 시 exact설정이 있을 경우 작동하지 않으니 주의할 것 *//* 라우팅 된 Component에서 현재 브라우저 url 확인하는 법: match.path */      배포      build                  react-scripts build 혹은 npm run build는 배포용 문서를 생성한다.                    노드 모듈 gh-pages는 깃허브에 static page용 branch를 만들고 .github.io/&lt;/code&gt;에 page를 올려준다. 이를 위하여 package.json을 아래와 같이 설정해야 한다.        {  \"scripts\": {    \"build\": \"react-scripts build\",    \"deploy\": \"gh-pages -d build\",    \"predeploy\": \"npm run build\"  },  \"homepage\": \"https://&lt;github_id&gt;.github.io/&lt;repo_name&gt;\"}                            ! homepage설정은 gh-pages가 웹서버 파일들을 연결시키기 위해 필요하다!(깃허브 업로드 repo를 선택하기 위한 것이 아니다!)            ",
+        "url": "/react"
+    }
+    ,
+    
+    "js": {
+        "title": "Javascript 기본문법",
+            "author": "intoreal",
+            "category": "",
+            "content": "기본문법      변수 지정          var: fuction-scoped      let(mutable), const(immutable) : block scoped            이벤트 핸들러의 target 속성 확인    funtion handler(event) {    const 내부변수 = event.target.&lt;속성&gt;}            마우스 우클릭 금지    function handleCM(event) {    event.preventDefault();}  &lt;대상요소&gt;.addEventListener('contextmenu', handleCM)            파일 다운로드    function fileSave() {    const link = documnet.createElement('a');    link.href = &lt;이미지 링크&gt;;    link.download = &lt;저장될 파일명&gt;;    link.click();      }      기타 문법      데이터 fetch    import axios from 'axios';  async function myfun() {  const { data } = await axios.get(url);}            map에서 (data, index) =&gt; ()와 같은 함수를 사용하여 index 값을 넣어줄 수 있다.  ",
+        "url": "/js"
+    }
+    ,
+    
+    "css": {
+        "title": "CSS 기본문법",
+            "author": "intoreal",
+            "category": "",
+            "content": "기본문법      외부 css 파일 적용(feat. 기본 css 삭제)    @import \"reset.css\";            시스템 폰트 사용    font-family: -a &lt;tab&gt;  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;            배경색    background-color : white;            글자 정렬    text-align: center;            그림자 설정    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);*            모든 css 초기화(버튼 등의 기본 디자인 삭제)    all: unset;            마우스 커서 모양 지정    cursor: pointer;            margin, padding 작성 순서    margin: 10px 20px 15px 5px /* 상 우 하 좌 */margin: 10px 5px /*상하 좌우*/margin: 10px 5px 25px /*상 좌우 하*/margin: 10px /*상하좌우*/            모서리 둥글게    border-radius : 5px;            가로세로 정렬    /* 부모 요소(flex container)에 */display: flex;/* 주축의 설정 */flex-direction : row(기본값, 가로로 나열), column(세로로 나열)/* 주축의 방향 정렬 */justify-content: stretch(늘려서 채움), flex-start, center, flex-end/* 주축의 수직 정렬 *//* flex-wrap:wrap이고 두줄 이상일때만 의미가 있음 */align-items: center(가운데), flex-start(시작선정렬), flex-end(끝선정렬)            박스 사이징 정책 설정    box-sizing : content-box /* 테두리와 안쪽 여백을 제외한 내용이 너비가 됨 */box-sizing : border-box /* 테두리와 안쪽 여백도 요소의 크기로 고려함 */            글자 변환    text-transform: uppercase; /*대문자로 변경 */font-weight: 800; /*글자 굵기*/font-size: 12px; /*글자 크기*/            마우스 상호작용    &lt;요소명&gt;:active { transform: scale(0.98) } /* 해당요소 클릭시 2% 축소 */&lt;요소명&gt;:hover { transform: scale(1.02) } /* 해당요소 위에 마우스가 있을때 1.02배 확대 */            position의 설정    position: static /* 기본값 */position: relative /* top, left 등을 통해서 위치 변경 가능, 타 요소에 영향 X */      reset css 파일reset.css",
+        "url": "/css"
+    }
+    ,
+    
+    "npm": {
+        "title": "Nodejs - npm 사용법",
+            "author": "intoreal",
+            "category": "",
+            "content": "npm 사용법      script 사용법    npm startnpm run deploy        # 새로운 스크립트 &lt;name&gt;을 정의할 때, pre&lt;name&gt;을 정의하면 먼저 실행시킨다.{  \"scripts\": {    \"start\": \"react-scripts start\",    \"build\": \"react-scripts build\",    \"deploy\": \"gh-pages -d build\",    \"predeploy\": \"npm run build\"  }   }        ",
+        "url": "/npm"
+    }
+    ,
+    
+    "vscode-extensions": {
+        "title": "vscode 필수 확장 기능",
+            "author": "intoreal",
+            "category": "",
+            "content": "vscode 필수 확장 기능      Python    Prettier  Live Server  Material Theme  Material Icon Theme  Code Spell Checker  Bracket Pair Colorizer 2  Git History      Git lens    Indent-rainbow  Auto Rename Tag  Css Peek  HTML CSS Support",
+        "url": "/vscode-extensions"
+    }
+    ,
+    
+    "html": {
+        "title": "HTML 기본문법",
+            "author": "intoreal",
+            "category": "",
+            "content": "기본 문법      !DOCTYPE 생성    ! tab            css 적용    &lt;link rel=\"stylesheet\" href=\"styles.css\" /&gt;            script 적용    &lt;script src=\"app.js\"&gt;&lt;/script&gt;            단축키    &lt;!--div.&lt;class명&gt;#&lt;id명&gt;&gt;div.&lt;class명&gt;+div.&lt;class명&gt; TAB--&gt;  &lt;div class=\"myclass\" id=\"myid\"&gt;  &lt;div class=\"newclass\"&gt;&lt;/div&gt;  &lt;div class=\"newclass\"&gt;&lt;/div&gt;&lt;/div&gt;            html에서 css 바로 적용     &lt;div style=\"background-color: #ff3b30\"&gt;&lt;/div&gt;      ",
+        "url": "/html"
+    }
+    ,
+    
+    "linux-ubuntu": {
+        "title": "리눅스(Ubuntu) 자주 사용하는 기능",
+            "author": "intoreal",
+            "category": "",
+            "content": "Linux 환경 점검하드웨어 확인      CPU 정보    cat /proc/cpuinfo            GPU 정보 1    lspci | grep -i VGA            GPU  정보 2    nvidia-smi      운영체제 확인  Linux  커널 버전  cat /proc/version      Ubuntu 버전    cat /etc/issue            OS 커널 비트수    getconf WORD_BIT      네트워크 확인      LISTEN 포트 확인    netstat -nat | grep LISTEN            외부에서 접근 확인    python3 -m venv testsource test/bin/activatesudo pip3 install flasktouch app.pyvim app.py        # app.py from flask import Flaskfrom flask import requestfrom flask import redirect  app = Flask(__name__)  @app.route('/', methods = ['GET'])def home_get():    args_dict = request.args.to_dict()    res = f'Get request arrived! \\n{args_dict}'   \treturn res  @app.route('/', methods = ['POST'])def home_post():    form_dict = request.form.to_dict()    file_dict = request.files    res = f'Post request arrived! \\n{form_dict} \\nfile num: {len(file_dict)}\\n{file_dict}'   \treturn res  @app.route('/&lt;path:subpath&gt;', methods = ['GET', 'POST'])def home_redirect(subpath):    return redirect('/')  if __name__== '__main__':   \tapp.run(host='0.0.0.0', port=80)        sudo python3 app.py# 인터넷 환경에서 서버 IP:80으로 접근 시도      tmux 사용      tmux 세션 생성    tmux new -s &lt;session-name&gt;            tmux 세션에서 나오기    Ctrl+b, d            tmux 세션 리스트 확인    tmux ls            tmux 세션 들어가기    tmux attach -t &lt;session-name&gt;      ",
+        "url": "/linux(ubuntu)"
+    }
+    ,
+    
+    "git": {
+        "title": "GIT 기본문법",
+            "author": "intoreal",
+            "category": "",
+            "content": "Git 설치 및 설정      초기화    # git 초기화시git init# git 삭제시rm -rf .git            현재 설정 확인    # 전체 설정 확인git config --list# 항목별 설정 확인git config user.namegit config user.emailgit config core.editor            현재 설정을 에디터에서 수정    git config --global -e                      에디터 확인        code .                          기본 에디터 변경    # 동시 편집 가능git config --global core.editor \"code\"# 에디터 종료 대기git config --global core.editor \"code --wait\"            사용자 정보 변경    git config --global user.name \"jihwan\"git config --global user.email \"my@name.com\"            라인 Endian  설정    # 윈도우 사용자git config --global core.autocrlf true# 맥 사용자git config --global core.autocrlf input            축약어 설정    git config --global alias.&lt;축약어, 예시: st&gt; &lt;명령어, 예시: status&gt;# 사용법git st      수정 및 복구      수정 및 복구            예전 파일 복구하기    git restore &lt;filename&gt; # staged 파일 이상의 내용으로 working directory를 복구한다. git restore -s HEAD &lt;filename&gt; # 가장 최근 커밋되었던 내용으로 복구한다.             예전 커밋 파일 가져오기(현재 파일로)    git checkout &lt;커밋 sha값 or branch 이름&gt; &lt;파일명&gt; # 현재 파일을 과거 커밋의 파일로 교체한다.(스테이징도 한다.)             예전 커밋 파일 가져오기(다른 파일로)    git checkout &lt;과거 커밋 sha or branch 이름&gt; # 과거 상태를 확인하는 상태로 전환cp &lt;target file&gt; &lt;backup file&gt; # 가져오기 원하는 파일의 백업본 생성git checkout HEAD # 원래 브랜치 위치로 복귀# untracked 상태의 파일로 원하는 작업 수행            파일 삭제하기    git rm &lt;파일명&gt; # 워킹 디렉토리에서 삭제, 로컬/원격에서도 삭제git rm --cached &lt;파일명&gt; # 워킹 디렉토리에는 남김(untracked), 로컬/원격 저장소에서만 삭제      커밋 관리      과거 커밋 지점 확인    git reflog # HEAD가 그간 표시하였던 커밋지점 표기(SHA값), log에서 안보이는 커밋도 확인 가능            커밋 통합    git rebase -i HEAD~3 # master branch에 merge하기 전 정리용, HEAD이전 3개의 커밋을 통합한다.  # 1단계: interactive 창에서 가장 오래된 커밋을 pick으로 나머지 커밋을 s로 변경하여 통합# 2단계: 가장 위에 통합 커밋 메시지를 적는다.       branch 관리  branch 생성    git branch &lt;새로운 branch명&gt; # 브랜치를 생성만 할 때git checkout -b &lt;새로운 branch명&gt; # 브랜치를 생성하고 동시에 이동        branch 확인    git branch        branch 이동    git checkout &lt;다른 branch명&gt;      원격 저장소 관리      원격저장소 현황 확인    git remote -v            원격저장소 등록    git remote add origin &lt;원격 저장소 주소&gt; # 주소 등록git fetch  # 원격 저장소 내용 확인# 현 브랜치에서 최소 1개의 커밋을 실행한 후  git branch --set-upstream-to=origin/main master # 원격 main 브랜치와 로컬 master 브랜치 연결git pull --allow-unrelated-histories # 원격 저장소 내용 적용(그간 연관성이 없더라도 실행 허용)            원격저장소 해제    git remote rm origin # 원격 저장소 등록 해제      그 외 기타Conflict 해결  Conflict가 있을 경우 git push는 진행되지 않는다.                              Conflict가 있을 경우 git pull시 master          merge상태로 변경된다.                            이때 텍스트 파일은 충돌한 내용이 반영되어 변경되며      바이너리 파일은 변경내용이 반영되지 않는다.                                    master          merge상태에서 git diff를 통해 Staging되지 않은 변경된 내용을 확인할 수 있다.                                                  master          merge상태에서 git reset head를 할 경우 merge 상태가 취소되나 수정된 파일들은 변경된 채로 남는다.                                                  master          merge상태에서 충돌내용을 적절히 반영하여 처리하여야 한다. 그 뒤 git add, git commit을 통해 Conflict를 해소하고 다시 git push하면 수정한 현재 파일이 원격저장소에 반영된다.                      충돌이 날 경우 일단 git fetch 후 git checkout origin/master로 가서 내용을 확인하자.Staging 해제  git reset HEAD 파일명(or *)을 통해 Staging된 내용을 취소할 수 있다.git diff tool  git difftool 로 변경된 내용을 IDE에서 확인 가능",
+        "url": "/GIT"
+    }
+    ,
+    
+    "pyplot": {
+        "title": "데이터 시각화",
+            "author": "intoreal",
+            "category": "",
+            "content": "plt 화면 제어import matplotlib.pyplot as pltfig = plt.figure(figsize=(13,6))for i in range(10):  subplot = fig.add_subplot(2, 5, i+1)  subplot.set_title(f'picture {i+1}')  subplot.set_xticks([])  subplot.set_yticks([])  #subplot.imshow(그림 소스.reshape(x, y))plt.show()",
+        "url": "/pyplot"
+    }
+    ,
+    
+    "pandas": {
+        "title": "자주쓰는 pandas 기능 정리",
+            "author": "intoreal",
+            "category": "",
+            "content": "Dataframe 관리Dataframe 생성  리스트로 DataFrame 생성    import pandas as pddf = pd.DataFrame([[1,2,3,4,5], [6,7,8,9,10]], columns=['a', 'b', 'c', 'd', 'e'], index=[0, 1])# 결과물 columns = 'a','b','c','d','e' index = 0, 1        딕셔너리로 DataFrame 생성    import pandas as pdd = {'a':[1,2,3], 'b':[4,5,6], 'c':[7,8,9]}df = pd.DataFrame(d, index=[0,1,2])# 결과물 columns = a, b, c, index = 0,1,2        DataFrame으로 DataFrame 생성(복사)    df2 = df.copy()      Dataframe 인덱스  인덱스 확인    df.index# 결과물: 인덱스 타입에 따라 Rangeindex, Int64index 등 반환        인덱스 변경    # df.set_index(컬럼명)df.set_index('a')# 결과물: 'a'컬럼을 인덱스로 하는 DataFrame 반환(원본은 유지), 단 'a' 컬럼 값은 values에서 사라지므로 주의      Dataframe 컬럼  컬럼 확인    df.columns# 결과물: DataFrame의 컬럼 값에 따라 Index(문자도 Index로 표현), Rangeindex 등 반환df.columns.tolist()# 결과물: DataFrame의 컬럼 값을 list로 변환하여 반환df.columns.to_numpy()# 결과물: DataFrame의 컬럼 값을 numpu array로 변환하여 반환        컬럼 변경    df.columns = ['a', 'b', 'c', 'd', 'e']# 결과물: DataFrame의 컬럼이 입력 리스트 값으로 변경(df.columns의 데이터 타입은 Index로 저장)      Dataframe 데이터  데이터 값 확인, 데이터 numpy 추출    df.valuesdf.to_numpy()# 결과물: DataFrame의 인덱스와 컬럼을 제외한 부분을 numpy array로 반환        데이터의 Transpose 결과물 확인    df.T# 결과물: DataFrame의 Transpose 값을 확인(원본은 유지)        데이터 타입 확인    df.dtypes# 결과물: 각 columns의 자료형을 저장한 Series 반환      생성(Create)  loc을 통해 df 행(row, ㅡ) 1개 추가    df.loc[새로운 인덱스] = [1,2,3,4,5]# iloc에서는 사용 불가(index 범위를 넘어갔다는 에러 출력)        append를 통해 df 행(row, ㅡ) 여러개 추가    new_df = pd.DataFrame([[31,32,33,34,35], [36,37,38,39,40]])df.append(new_df, ignore_index=True)# 결과물: 기존 df에 new_df의 값을 붙여서 반환(단, 원본 df는 그대로 유지된다)        pd.concat을 통해 df 행(row, ㅡ) 여러개 추가```pythonnew_df = pd.DataFrame([[31,32,33,34,35], [36,37,38,39,40]])new_df.columns = df.columns  # 컬럼의 갯수와 순서가 같을 경우만 가능pd.concat([df, new_df], axis=0)    결과물: 기존 df에 new_df의 값을 붙여서 반환(단, 원본 df는 그대로 유지된다)  + df 열(column, |) 1개 추가```pythondf[새로운 열이름] = 0# 결과물: df column에 '새로운 열이름'이 추가되고 모든 데이터가 0으로 설정됨  다른 데이터를 활용하여 df 열(column, |) 1개 추가    temp = df index와 길이가 같은 list 혹은 numpy arraydf[새로운 열이름] = temp# 결과물: df column에 '새로운 열이름'이 추가되고 데이터가 temp와 같이 설정됨        다른 데이터를 활용하여 df 열(column, |) 여러개 추가    new_df = 다른 Dataframepd.concat([df, new_df], axis=1)# 결과물: 옆에 추가 컬럼을 만들어서 new_df 값을 붙인다.         컬럼값이 중복될 수 있다.(ignore_index=True를 지정할 경우 0~column수로 컬럼값이 재지정된다)        원본은 변하지 않는다.         index값이 다른 행의 경우 없는 column 값 부분에 NaN을 넣는다.       읽기/검색(Read, Selection)loc이나 iloc을 쓸때 연속된 데이터의 경우 [0:0, 0:0] 형태를, 불연속적인 데이터의 경우 [[0,4,6], [2,5,7]]형태를 가진다.loc을 쓴다면 중복된 index나 column에 주의하자 df에 바로 []를 쓰는 문법의 경우 1. df[‘컬럼명’], 2. df[첫번째 인덱스명:마지막 인덱스명], 3. df[첫번째 인덱스 순서:마지막 인덱스 순서+1]의 형식으로 쓸 수 있다.( : 를 안쓰면 컬럼 한개,  : 를 쓰면 무조건 인덱스 검색 )df 행(row, ㅡ) 검색  한개 행 검색    df.loc[인덱스 값]df.iloc[인덱스 순서]# 결과물 : 해당 인덱스의 Series(인덱스 유일) 혹은 DataFrame(인덱스 중복)        연속된 여러개 행 검색(전체 컬럼)    df.loc[첫번째 인덱스:마지막 인덱스]df.iloc[첫번째 인덱스 순서: 마지막 인덱스 순서]        불연속된 여러개    df.loc[[target1, target3, target5]]df.iloc[[target1 순서, target3 순서, target5 순서]]      df 열(column, |) 검색  한개 열 검색    df[컬럼이름한개]df.loc[:, 컬럼이름한개]        연속된 여러개 열 검색    df.loc[:, 첫번째 컬럼명:마지막컬럼명]df.iloc[:, 첫번째 컬럼 순서, 마지막 컬럼 순서]        불연속된 여러개 열 검색    df.loc[:, [target column 1, target column 3, target column 5]]df.iloc[:, [target column 1 순서, target column 3 순서, target column 5 순서]]      조건에 맞는 데이터 검색  조건 적용    df &gt; 0  # 결과물: DataFrame에서 0 보다 큰 셀만 True 나머지는 False인 df 반환(shape, index, columns는 전체와 같음)df.loc[:, 'a'] &gt; 0  # 결과물: DataFrame의 컬럼 a 값이 0보다 큰 셀은 True 아니면 False인 Series 반환(index는 전체와 같음)df.loc[[0, 2, 4], 'a'] &gt; 0  # 결과물: DataFrame 인덱스 0, 2, 4에서 의 컬럼 a 값이 0보다 큰 셀은 True 아니면 False인 DataFrame 반환(shape는 전체와 같음)        조건에 맞는 데이터 검색    df[df와 행 수가 같은(인덱스가 같은) True, False list 혹은 Series]  # 해당 행들 출력df[같은 shape의 DataFrame]  # 결과물: DataFrame의 인덱스/column값이 동일한 셀이 True면 출력, False면 NaN 출력                         # shape가 같은데 중복 인덱스가 있는 경우 잘못된 값 출력됨.      값 추출  리스트로 추출(Series에서만 가능)    df.tolist()        numpy array로 추출    df.to_numpy()      수정(Update)  검색하여 일괄 수정    df.loc[ ,  ] = 같은 shape의 list        조건에 맞는 셀만 수정    df[DataFrame] = 같은 shape의 DataFramedf[df&gt;10] = -df  # 예시# 결과값 : DataFrame이 True인 부분은 입력, False인 부분은 미입력      삭제(Delete)  행(row, ㅡ) 삭제    df.drop(index=[0,4,6,7], inplace=True)# 결과값 : df에서 인덱스 0,4,6,7인 행을 삭제하고 자체적용        열(column, |) 삭제    df.drop(columns=['a', 'b', 'e'], inplace=True)# 결과값 : df에서 컬럼 a,b,e인 열을 삭제하고 자체적용      기타df 정렬  인덱스 순서로 정렬    df.sort_index(axis=0, ascending=True, inplace=True)# 결과값: 인덱스 기준으로 오름차순 정렬, 자체적용df.sort_index(axis=1, ascending=True, inplace=True)# 결과값: 컬럼값 기준으로 오름차순 정렬, 자체적용        임의 컬럼의 데이터 기준으로 정렬    df.sort_values(by=컬럼명, ascending=True, inplace=True)# 결과값: 컬럼명의 데이터 기준으로 오름차순 정렬, 자체적용      groupby  d를 묶어서 표현    df_train[[속성1, 속성2]].groupby([속성1], as_index=True).count()      ",
+        "url": "/pandas"
+    }
+    ,
+    
+    "numpy": {
+        "title": "자주 쓰이는 numpy 기능 정리",
+            "author": "intoreal",
+            "category": "",
+            "content": "넘파이 생성  list로 넘파이 array  생성    import numpy as npnp.array([[1,2,3], [4,5,6]])# 결과물: 2x3차원 ndarray        순차적인 넘파이 array 생성(arange)    np.arange(5)# 결과물: ndarray [0 1 2 3 4]np.arange(1, 20, 2)# 결과물: ndarray [ 1  3  5  7  9 11 13 15 17 19]np.arange(linspace(0,20,5))# 결과물: ndarray [ 0.  5. 10. 15. 20.]        0/1/숫자로 넘파이 array 생성    np.zeros((2,3))# 결과물: 2x3차원 ndarray, 0으로 채움np.ones((2,3))# 결과물: 2x3차원 ndarray, 1로 채움np.full((2,3), 10)# 결과물: 2x3차원 ndarray, 10으로 채움      넘파이 변경  차원 변경    a = np.arange(15)a.reshape(3,5)# 결과물: 3x5차원 ndarray        파이썬 list로 변환    a = np.arange(10)a.tolist()# 결과물: 0~9까지 들어있는 파이썬 list        axis 0 으로 합치기(상하)    np.vstack((a,b))# 결과물 : a와 b를 0차원에서 합침        axis 1 로 합치기(좌우)    np.hstack((a,b))# 결과물 : a와 b를 1차원에서 합침        axis 0 으로 나누기(상하)    a = np.arange(16).reshape(4,4)np.vsplit(a, 4)# 결과물 : [array([[0, 1, 2, 3]]),#           array([[4, 5, 6, 7]]),#           array([[ 8,  9, 10, 11]]),#           array([[12, 13, 14, 15]])]        axis 1 로 나누기(좌우)    a = np.arange(16).reshape(4,4)np.hsplit(a, 4)# 결과물 : [array([[ 0], [ 4], [ 8], [12]]), #           array([[ 1], [ 5], [ 9], [13]]),#           array([[ 2], [ 6], [10], [14]]),#           array([[ 3], [ 7], [11], [15]])]      넘파이 연산  브로드캐스팅```pythona = np.arange(6).reshape(1,2,3)    결과물 : [[[0, 1, 2],           [3, 4, 5]]]      a * np.array([2])결과물 : [[[0, 2, 4],         [6, 8, 10]]]a * np.array([[1],[2]])결과물 : [[[0, 1, 2],         [6, 8, 10]]]      ```  sum/min/max/argmax/cumsum    a = np.arange(24).reshape(2,3,4)# 결과물 : [[[ 0,  1,  2,  3],#            [ 4,  5,  6,  7],#            [ 8,  9, 10, 11]],#            #           [[12, 13, 14, 15],#            [16, 17, 18, 19],#            [20, 21, 22, 23]]])a.sum(axis=0)# 결과물 : [[12, 14, 16, 18],#           [20, 22, 24, 26],#           [28, 30, 32, 34]])a.sum(axis=1)# 결과물 : [[12, 15, 18, 21],#           [48, 51, 54, 57]]a.sum(axis=2)# 결과물 : [[ 6, 22, 38],#           [54, 70, 86]]        불리언 변환    a = np.arange(15).reshape(3,5)# 결과물 : [[ 0,  1,  2,  3,  4],#           [ 5,  6,  7,  8,  9],#           [10, 11, 12, 13, 14]]a&gt;3# 결과물 : [[False, False, False, False,  True],#           [ True,  True,  True,  True,  True],#           [ True,  True,  True,  True,  True]]        불리언 변환 -&gt; 해당 셀만 확인    b = a&gt;3a[b]# 결과물 : [ 4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14])        불리언 변환 -&gt; 해당 셀만 수정    a[b] = -1print(a)# 결과물 : [[ 0,  1,  2,  3, -1],#           [-1, -1, -1, -1, -1],#           [-1, -1, -1, -1, -1]]      랜덤값 생성  랜덤 시드 정의    np.random.seed(0)        (정수) 랜덤 array 생성(randint)    np.random.randint(1, 10, size=(2,3))# 결과물 : [[9, 3, 2],#           [8, 3, 2]]        (0~1) 랜덤 array 생성    np.random.rand(2,3)# 결과물 : 2x3 랜덤값 ndarray        (-1~1 정규분포) 랜덤 array 생성(randn)    np.random.randn(2,3)# 결과물 : 2x3 -1~1까지 정규분포 랜덤값 array        (정규분포) 랜덤 array 생성(normal)    np.random.normal(a, b, (2,3))# 결과물 : 2x3 평균 a, 분산 b의 정규분포 랜덤값 array      ",
+        "url": "/numpy"
+    }
+    ,
+    
+    "tensorflow": {
+        "title": "Tensorflow 기본 문법",
+            "author": "intoreal",
+            "category": "",
+            "content": "모델 저장modelpath = '/content/drive/My Drive/Colab/main/'modelname = 'model'saver = tf.train.Saver()saver.save(sess, modelpath+modelname)모델 복구 1modelpath = '/content/drive/My Drive/Colab/main/'modelname = 'model'if tf.train.checkpoint_exists(modelpath+modelname):  saver.restore(sess, modelpath+modelname)  print('Model Restored!')else:  sess.run(tf.global_variables_initializer())  print('Model Initialized(reset)!')모델 복구 2ckpt = tf.train.get_checkpoint_state('./저장경로/')if ckpt and tf.train.checkpoint_exists(ckpt.model_checkpoint_path):  saver.restore(sess, ckpt.model_checkpoint_path)  print('Model Restored!')else:  sess.run(tf.global_variables_initializer())  print('Model Initialized(reset)!')",
+        "url": "/tensorflow"
+    }
+    ,
+    
+    "docker": {
+        "title": "자주 사용하는 docker 기능 정리",
+            "author": "intoreal",
+            "category": "",
+            "content": "docker container 확인docker ps -adocker image 확인docker imagesdocker image 확보(docker hub)docker pull 배포자id/배포imagedocker image 실행(컨테이너 시작)docker run -it -p 연결할pc포트:연결할container포트 ubuntu컨테이너를 생성하고 동시에 실행시킨다.docker container 시작/정지  container 시작    docker start 컨테이너id -i        사용자 입력 콘솔을 위하여 -i 옵션 추가    container 정지    docker stop 컨테이너id        PC와 docker container간 데이터 복사    PC에서 container로    docker cp PC파일경로 containerid:container경로        container에서 PC로    docker cp containerid:container파일경로 PC경로      docker image 제작  docker image 최초 제작    docker commit containerid 이미지명        docker image 이름 변경    docker image tag containerid 배포자id/이미지명:tag      docker image 배포(docker hub)docker push 배포자id/이미지명:tagDocker Cheat SheetDocker Cheat Sheet",
+        "url": "/docker"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://intoreal.github.io/">지환의 기술블로그</a> &copy; 2021</section>
+                <section class="poweredby">Powered by <a href="https://github.com/intoreal/" target="_blank" rel="noopener">GitHub</a> and Jasper2</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                                        
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    <!--  -->
+
+    <!-- The big email subscribe modal content -->
+    <!-- 
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <h1 class="subscribe-overlay-title">Search 지환의 기술블로그</h1>
+            <p class="subscribe-overlay-description">
+            lunr.js를 이용한 posts 검색 </p>
+            <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="search-text" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+        </div>
+    </div>
+     -->
+
+
+    <!-- highlight.js(disabled) -->
+<!-- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script> -->
+
+
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-xxxxxxxx-x', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

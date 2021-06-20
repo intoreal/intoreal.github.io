@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Technote and Today I Learned</description>
+    <link>
+    https://intoreal.github.io</link>
+    
+      
+      <item>
+        <title>진짜 영어를 찾아서 - 링글 수업 후기</title>
+        
+          <description>&lt;h3 id=&quot;영어를-20년-동안-공부했는데-왜-영어가-안될까&quot;&gt;영어를 20년 동안 공부했는데 왜 영어가 안될까?&lt;/h3&gt;
+
+</description>
+        
+        <pubDate>Fri, 18 Jun 2021 22:30:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/ringle-plus</link>
+        <guid isPermaLink="true">https://intoreal.github.io/ringle-plus</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>React 기본문법</title>
+        
+          <description>&lt;h2 id=&quot;기본-구성&quot;&gt;기본 구성&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 15 May 2021 16:58:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/react</link>
+        <guid isPermaLink="true">https://intoreal.github.io/react</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Javascript 기본문법</title>
+        
+          <description>&lt;h2 id=&quot;기본문법&quot;&gt;기본문법&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 10 May 2021 20:57:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/js</link>
+        <guid isPermaLink="true">https://intoreal.github.io/js</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>CSS 기본문법</title>
+        
+          <description>&lt;h2 id=&quot;기본문법&quot;&gt;기본문법&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 10 May 2021 19:16:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/css</link>
+        <guid isPermaLink="true">https://intoreal.github.io/css</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Nodejs - npm 사용법</title>
+        
+          <description>&lt;h1 id=&quot;npm-사용법&quot;&gt;npm 사용법&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 10 May 2021 18:37:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/npm</link>
+        <guid isPermaLink="true">https://intoreal.github.io/npm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>vscode 필수 확장 기능</title>
+        
+          <description>&lt;h1 id=&quot;vscode-필수-확장-기능&quot;&gt;vscode 필수 확장 기능&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 05 May 2021 21:18:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/vscode-extensions</link>
+        <guid isPermaLink="true">https://intoreal.github.io/vscode-extensions</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>HTML 기본문법</title>
+        
+          <description>&lt;h2 id=&quot;기본-문법&quot;&gt;기본 문법&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 05 May 2021 21:18:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/html</link>
+        <guid isPermaLink="true">https://intoreal.github.io/html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>리눅스(Ubuntu) 자주 사용하는 기능</title>
+        
+          <description>&lt;h2 id=&quot;linux-환경-점검&quot;&gt;Linux 환경 점검&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 02 May 2021 12:28:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/linux(ubuntu)</link>
+        <guid isPermaLink="true">https://intoreal.github.io/linux(ubuntu)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>GIT 기본문법</title>
+        
+          <description>&lt;h2 id=&quot;git-설치-및-설정&quot;&gt;Git 설치 및 설정&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 01 May 2021 19:13:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/GIT</link>
+        <guid isPermaLink="true">https://intoreal.github.io/GIT</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>데이터 시각화</title>
+        
+          <description>&lt;h2 id=&quot;plt-화면-제어&quot;&gt;plt 화면 제어&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Apr 2021 22:59:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/pyplot</link>
+        <guid isPermaLink="true">https://intoreal.github.io/pyplot</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자주쓰는 pandas 기능 정리</title>
+        
+          <description>&lt;h2 id=&quot;dataframe-관리&quot;&gt;Dataframe 관리&lt;/h2&gt;
+&lt;h3 id=&quot;dataframe-생성&quot;&gt;Dataframe 생성&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;리스트로 DataFrame 생성
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 결과물 columns = 'a','b','c','d','e' index = 0, 1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Apr 2021 22:59:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/pandas</link>
+        <guid isPermaLink="true">https://intoreal.github.io/pandas</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자주 쓰이는 numpy 기능 정리</title>
+        
+          <description>&lt;h2 id=&quot;넘파이-생성&quot;&gt;넘파이 생성&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;list로 넘파이 array  생성
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 결과물: 2x3차원 ndarray
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Apr 2021 22:59:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/numpy</link>
+        <guid isPermaLink="true">https://intoreal.github.io/numpy</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Tensorflow 기본 문법</title>
+        
+          <description>&lt;h2 id=&quot;모델-저장&quot;&gt;모델 저장&lt;/h2&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;modelpath&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/content/drive/My Drive/Colab/main/'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;modelname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'model'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;saver&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Saver&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;saver&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;modelpath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;modelname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Apr 2021 22:59:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/tensorflow</link>
+        <guid isPermaLink="true">https://intoreal.github.io/tensorflow</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자주 사용하는 docker 기능 정리</title>
+        
+          <description>&lt;h2 id=&quot;docker-container-확인&quot;&gt;docker container 확인&lt;/h2&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker ps &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;docker-image-확인&quot;&gt;docker image 확인&lt;/h2&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker images
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Apr 2021 16:40:00 +0000</pubDate>
+        <link>
+        https://intoreal.github.io/docker</link>
+        <guid isPermaLink="true">https://intoreal.github.io/docker</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
