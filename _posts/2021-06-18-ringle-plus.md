@@ -5,7 +5,7 @@ cover:  assets/images/welcome.jpg
 navigation: True
 title: 진짜 영어를 찾아서 - 링글 수업 후기
 date: 2021-06-18 22:30:00
-tags: [etc]
+tags: [링글, ThankYouRingle]
 class: post-template
 subclass: 'post tag-etc'
 author: intoreal
@@ -16,6 +16,8 @@ author: intoreal
  한국학생들은 정규수업을 받을 때부터 직접적 간접적으로 영어 수업을 듣게된다. 나 때까지만 하더라도 초등학교때 영어 수업은 없었지만 이제는 있다고 하니 대학교 졸업 때까지를 생각하면 최소 16년은 영어를 공부하는 것이다. 문제는 이렇게 영어를 오래 공부해도 자신있게 영어를 하지 못한다는 데 있다. 
 
 ### 개인으로서 경쟁력을 얻기 위해 영어를 다시 공부하기 시작
+
+<img src="/assets/images/ringle/ringle-my-screen.png" alt="ringle-my-screen"  />
 
  링글에 대한 이야기는 아내에게 들었다. 링글 수업을 계속 수강하고 있는 학생으로서 다른 전화영어 하는 것 보다는 링글이 훨씬 낫다는 이야기를 많이 해주었다. 
 
@@ -29,6 +31,8 @@ author: intoreal
 
  실력있는 튜터들과 좋은 피드백도 매우 훌륭하다. 대학원 이상 학습하고 있는 튜터들은  IT 현황에 대해 같이 토론이 가능했으며, 수업 후에는 구글 Docs로 나의 약점에 대해 다양한 개선 방안을 짚어주었다. 다른 전화영어에서는 얻지 못했던 장점이다. 
 
+<img src="/assets/images/ringle/ringle-screen.png" alt="ringle-feedback"  />
+
 
 
 ### 단점: 아직 많지 않은 튜터 수, 수강권의 시간제한
@@ -40,3 +44,4 @@ author: intoreal
 ### 링글 영어 추천여부: 추천
 
  링글은 실제 비즈니스나 학계에서 사용하는 영어를 경험할 수 있는 몇 안되는 서비스이다. 앞으로도 계속 서비스를 사용할 의향이 있고, 더 발전되었으면 한다. 국제적인 Startup으로 크게 성장하기를 기원한다. 
+
