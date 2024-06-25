@@ -6,9 +6,9 @@ title: "Ubuntu 22.04.3에서 Jekyll 설치가 안되는 문제 해결"
 # 게시글 시간 설정. 파일 명 보다 우선한다.
 date: 2024-06-24
 # 게시글의 카테고리. 최상단과 서브 카테고리만 있다.
-categories: git gitpage
+categories: [git, gitpage]
 # 게시글 태그 설정. ,로 태그들을 구분해서 작성 가능하다.
-tags: github blog jekyll ubuntu ruby
+tags: [git, github, blog, jekyll, ubuntu, ruby]
 # 공개여부 설정. true면 공개하고 false면 공개하지 않는다.
 published: true
 # 사용자 정의 변수. 본문에서 {{ page. food }} 형태로 사용 가능하다.
