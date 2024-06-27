@@ -49,6 +49,7 @@ services:                          # 실행하고 싶은 컨테이너를 service
 ## 실행 방법(--detach 모드)
 ```shell
 docker-compose up -d
+docker-compose -f ~/project/lab/docker-compose.yml up -d
 
 ```
 
