@@ -41,6 +41,14 @@ y = dataset.iloc[:, 4].values
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 ```
 
+## 데이터 변환
+```python
+s = StandardScaler()
+s.fit(x_train)
+X_train = s.transform(X_train)
+X_test = s.transform(X_test)
+```
+
 ## knn 알고리즘 학습
 ```python
 knn = KNeighborsClassifier(n_neighbors=5)
