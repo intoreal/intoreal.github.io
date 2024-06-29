@@ -25,6 +25,7 @@ import matplotlib.pyplot as plt
 from sklearn import metrics
 from sklearn.model_selection import train_test_split # train/test 데이터 분리
 from sklearn.preprocessing import StandardScaler     # 열 데이터 정규화
+from sklearn.neighbors import KNeighborsClassifier   # KNN 모델 사용
 from sklearn.metrics import accuracy_score           # 정확도 계산
 ```
 ## 데이터 load
