@@ -35,7 +35,7 @@ digits = load_digits()
 ## 데이터 확인 
 ```python
 plt.figure(figsize=(10,4))
-for index, (image, label) in enumerate(zip(digits.data[0:5], digits.targe[0:5]))
+for index, (image, label) in enumerate(zip(digits.data[0:5], digits.target[0:5]))
   plt.subplot(1,5, index+1)
   plt.imshow(np.reshape(image, (8,8)), cmap=plt.cm.gray)
   plt.title('Training: %i' % label, fontsize=20)
@@ -48,14 +48,14 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25, random
 
 ## 로지스틱 회귀 알고리즘 학습
 ```python
-logisticRegr = LogisticRegression()
+logisticReg = LogisticRegression()
 logisticReg.fit(x_train, y_train)
 ```
 
 ## svc 학습 모델 활용
 ```python
-y_pred= logisticRegr.predict(x_test)
-logisticRegr.score(x_test, y_test)
+y_pred= logisticReg.predict(x_test)
+logisticReg.score(x_test, y_test)
 ```
 
 ## 결과 시각화
@@ -65,7 +65,7 @@ import seaborn as sns
 cm = confusion_matrix(y_test, y_pred)
 plt.figure(figsize=(9,9))
 
-sns.heatmap(cm,k annot=True, fmt=".3f", linewidths = .5, squre=True, cmap='Bluts_r)
+sns.heatmap(cm, annot=True, fmt=".3f", linewidths = .5, squre=True, cmap='Bluts_r)
 
 plt.ylabel('Acutual label')
 plt.xlabel('Predicted label')
