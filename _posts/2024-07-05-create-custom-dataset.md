@@ -18,14 +18,14 @@ toc: true
 ---
 ## pytorch dataset의 개념
 pytorch의 dataset을 생성하려면 아래의 조건을 만족해야 한다. 
-> 1. torch.utils.data.Dataset을 상속하는 클래스일것
+> 1. torch.utils.data.Dataset을 상속하는 클래스일 것
 > 2. Sequence 타입일 것(__len__과 __getitem__ 구현)
-> 3. __getitem__메서드에서 데이터와 라벨을 반환할것
+> 3. __getitem__메서드에서 데이터와 라벨을 반환할 것
 > 4. (필요시) transform을 생성자 인자로 받아 __getitem__에 반영할 것
 
 ### torchvision.transforms.ToTensor()의 조건?
-ToTensor는 클래스로써 호출하여 인스턴스를 사용해야 한다. 
-ToTensor는 입력값으로 2차원(shape=(h, w)) 혹은 3차원(RGB, shape=(c,h,w)) 배열을 기대한다. 
+ToTensor는 클래스로써 호출하여 인스턴스를 사용해야 한다. \
+ToTensor는 입력값으로 2차원(shape=(h, w)) 혹은 3차원(RGB, shape=(h,w,c)) 배열을 기대한다. 
 
 ## 패키지 import
 ```python
@@ -36,7 +36,7 @@ import numpy as np
 ## 기본 데이터 생성
 ```python
 labels = np.random.randint(low=0,high=4,size=(100,))
-data = np.array([np.ones(shape=(3, 32,32)) * i for i in labels])
+data = np.array([np.ones(shape=(32,32,3)) * i for i in labels])
 ```
 ### 더 개선된 코드
 ```python
