@@ -59,6 +59,5 @@ if __name__ == '__main__':
     seq.append(6)
     print(seq)         # MySequence([1, 2, 3, 4, 5, 6])
 
-
 ```
 
