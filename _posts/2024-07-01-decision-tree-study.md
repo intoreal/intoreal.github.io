@@ -48,7 +48,7 @@ model = DecisionTreeClassifier()
 model.fit(x_train, y_train)
 ```
 
-## svc 학습 모델 활용
+## 학습 모델 활용
 ```python
 y_pred= model.predict(x_test)
 print(accuracy_score(y_test, y_pred))

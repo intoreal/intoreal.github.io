@@ -49,10 +49,11 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25, random
 ## 로지스틱 회귀 알고리즘 학습
 ```python
 logisticReg = LogisticRegression()
+# 멀티 클래스 처리를 원한다면 logisticReg = LogisticRegression(multi_class='multinomial')
 logisticReg.fit(x_train, y_train)
 ```
 
-## svc 학습 모델 활용
+## 학습 모델 활용
 ```python
 y_pred= logisticReg.predict(x_test)
 logisticReg.score(x_test, y_test)
