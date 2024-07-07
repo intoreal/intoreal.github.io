@@ -24,8 +24,8 @@ toc: true
 
 ## Sequence 타입 정의의 조건
 - collection.abc.Sequence 클래스를 상속받는다. 
-- <code>__len__(self) </code> 함수를 구현한다. 
-- <code>__getitem__(self, idx)</code>함수를 구현한다. 
+- `__len__(self)` 함수를 구현한다. 
+- `__getitem__(self, idx)`함수를 구현한다. 
 
 ### 예시
 ```python
