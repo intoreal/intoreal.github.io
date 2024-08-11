@@ -15,7 +15,6 @@ published: true
 author: jihwan
 # 만약 우측 Table Of Contents를 사용하고 싶지 않다면 false로 전환
 toc: true
-pin: true
 ---
 ## 내가 알아야 할 것들
 
