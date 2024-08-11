@@ -37,6 +37,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 ### (3) Autojump
 - 파이썬 설치 필요
+
 ```bash
 git clone git://github.com/wting/autojump.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
 
