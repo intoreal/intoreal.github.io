@@ -27,3 +27,10 @@ print(frame)
 # 2   3    c   33
 # 3   4    d   44
 ```
+
+## DataFrame의 저장
+
+```python
+frame.to_csv('./data.csv', index=False)
+
+```
