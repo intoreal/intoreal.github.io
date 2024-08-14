@@ -21,3 +21,18 @@ no.sqrt([1,4,9])
 
 
 ```
+
+
+## torch Tensor
+
+```python
+# 정규분포값을 주어진 shape로 반환한다. 
+torch.randn([3,4])
+```
+
+```python
+# 난수 정수를 주어진 shape로 반환한다. 
+torch.randint(low=0, high=10, size=(10,))
+```
+
+
