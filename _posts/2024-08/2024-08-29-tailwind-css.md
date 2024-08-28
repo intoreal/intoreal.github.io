@@ -13,15 +13,27 @@ toc: true
 
 ```html
 <!-- 4는 1rem이다. 대괄호를 써서 px 단위로 나타낼 수 있다. -->
-<div class="w-4 w-[1rem] w-[20px]">
+<div class="w-4 w-[1rem] w-[20px] min-h-[70vh]">
   Hello World
 <div>
+```
+
+## div 크기 지정
+```html
+<!-- w-full과 max-w mx-auto를 동시에 주면 좌우 여백을 두고 가운데로 정렬된다.  -->
+<div class="w-full max-w-[800px] mx-auto h-[100px] bg-[#69CFCF]">
+  Hello World
+<div>
+
 ```
 
 ## 배경색, 투명도 설정(bg, opacity)
 ```html
 <!-- 배경색 설정, 투명도 설정 -->
 <div class="w-[100px] h-[100px] bg-orange-400 opacity-30">
+  Hello World
+<div>
+<div class="w-[100px] h-[100px] bg-[#69CFCF]">
   Hello World
 <div>
 ```
@@ -45,6 +57,7 @@ toc: true
 ## flex
 ```html
 <!-- justify: 좌우 방향 정렬 방법, items: 상하 방향 정렬 방법 -->
+ <!-- justify-center justify-between -->
 <div class="w-[400px] h-[400px] flex flex-wrap justify-center items-center">
   <div class="h-[100px] w-[100px] bg-orange-400">A</div>
   <div class="h-[100px] w-[100px] bg-violet-400">B</div>
