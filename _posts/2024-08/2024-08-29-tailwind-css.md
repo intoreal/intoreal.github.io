@@ -25,6 +25,12 @@ toc: true
   Hello World
 <div>
 
+<!-- w-fit 자식 요소의 크기에 맞게 변경된다.  -->
+<div class="w-fit h-[100px] bg-[#69CFCF]">
+  Hello World
+<div>
+
+
 ```
 
 ## 배경색, 투명도 설정(bg, opacity)
@@ -57,12 +63,15 @@ toc: true
 ## flex
 ```html
 <!-- justify: 좌우 방향 정렬 방법, items: 상하 방향 정렬 방법 -->
- <!-- justify-center justify-between -->
+<!-- justify-center justify-between -->
+<!-- flex-1 부모요소의 모든 공간을 차지한다.  -->
+<!-- self-end flex의 마지막 요소로 간다 -->
+
 <div class="w-[400px] h-[400px] flex flex-wrap justify-center items-center">
+  <div class="h-[100px] w-[100px] bg-orange-400 flex-1">A</div>
+  <div class="h-[100px] w-[100px] bg-violet-400 flex-1">B</div>
   <div class="h-[100px] w-[100px] bg-orange-400">A</div>
-  <div class="h-[100px] w-[100px] bg-violet-400">B</div>
-  <div class="h-[100px] w-[100px] bg-orange-400">A</div>
-  <div class="h-[100px] w-[100px] bg-violet-400">B</div>
+  <div class="h-[100px] w-[100px] bg-violet-400 self-end">B</div>
   <div class="h-[100px] w-[100px] bg-orange-400">A</div>
   <div class="h-[100px] w-[100px] bg-violet-400">B</div>
 <div>
@@ -81,4 +90,26 @@ toc: true
   <div class="h-[100px] w-[100px] bg-orange-400">A</div>
   <div class="h-[100px] w-[100px] bg-violet-400 absolute top-[20px] opacity-50">B</div>
 <div>
+```
+## 반응형 UI
+```html
+<!-- sm: 640px보다 더 작을 경우 적용시킨다.  -->
+<!-- 640px 초과일 경우 flex-col 적용. 640px 이하일 경우 flex-row 적용 -->
+<div class="w-[400px] h-[400px] bg-orange-400 flex flex-col sm:flex-row">
+  Hello World
+<div>
+
+
+```
+
+## group
+```html
+<div class="group">
+  <button class="bg-blue-500 text-white px-4 py-2">
+    Hover me!
+  </button>
+  <p class="text-gray-500 group-hover:text-red-500">
+    This text changes color when the button is hovered.
+  </p>
+</div>
 ```
