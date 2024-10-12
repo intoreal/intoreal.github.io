@@ -129,6 +129,13 @@ line break<br>
 - [ ] Jupiter
 ```
 
+## Tables
+
+| Company                      | Contact          | Country |
+| :--------------------------- | :--------------- | ------: |
+| Alfreds Futterkiste          | Maria Anders     | Germany |
+| Island Trading               | Helen Bennett    |      UK |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
 
 ## Links
 [나의 링크](https://intoreal.github.io)
